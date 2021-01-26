@@ -114,7 +114,7 @@ function triangleV(){
 function circleV(){
     var r = prompt("## Please input radius : ")
     const pie = 3.14
-    var volume= (3/4)*pie*r*r*r
+    var volume= (4/3)*pie*r*r*r
     console.log(" This volume of sphere with radius "+r+ " = "+volume+ " ###")
 
 }
